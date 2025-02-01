@@ -114,8 +114,8 @@ export default function QuizHome({ post }: Props) {
           ) : (
             //Result showing
             <>
-              <div className="text-center">
-                <h2 className="text-xl font-semibold">Quiz Complete!</h2>
+              <div className="text-center text-white">
+                <h2 className=" text-xl font-semibold">Quiz Complete!</h2>
                 <div className="bg-gradient-to-r from-purple-400 to-pink-500 text-white p-6 rounded-lg mt-4">
                   <h3 className="text-2xl font-semibold"></h3>
                   <p className="mt-2">
